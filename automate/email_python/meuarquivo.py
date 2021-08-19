@@ -3,7 +3,7 @@ import pandas as pd
 from pandas.core.groupby.base import OutputKey
 import win32com.client as win32
 
-vendas = pd.read_excel('Vendas.xlsx')
+vendas = pd.read_excel(r'C:/Users/foliveira/Desktop/curso/mini curso python/Vendas.xlsx', engine='openpyxl')
 
 #visualizar a base de dados
 
